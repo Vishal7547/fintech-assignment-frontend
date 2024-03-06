@@ -18,7 +18,11 @@ This is the documentation for the frontend of the project. Below are the instruc
 To run the backend server, navigate to the `server` directory and use the following command:
 
 ```bash
-npm start     
+npm start
+
+## Live Website
+
+The live version of this project can be accessed [here] fintech-assignment-frontend.vercel.app
      
 
    
