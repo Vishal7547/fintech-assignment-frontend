@@ -1,13 +1,92 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.hero {
+  min-height: 100vh;
+  width: 100%;
+}
+
+.mainTodo {
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.searchFun {
+  padding: 5px 4px;
+  background-color: gainsboro;
+  border-radius: 8px 8px 0 0;
+}
+
+.mainTable {
+  border-radius: 0px 0px 8px 8px !important;
+}
+
+.innerSearch {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left,
+.right {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.right button {
+  margin: 0 4px;
+  padding: 5 10px;
+}
+
+.innerSearch div {
+  margin: 0 5px;
+}
+
+.todoSingleContainer div {
+  height: auto;
+  width: 300px;
+  padding: 10px;
+  background-color: gainsboro;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.todoSingleContainer div h6 {
+  font-size: 1.5rem;
+}
+
+
+
+.todoSingleContainer div p {
+  font-size: 0.9rem;
+  word-wrap: break-word !important;
+}
+
+.todoSingleContainer div button {
+  padding: 2px 10px !important;
+  margin: 5px 0 !important;
+}
+
+.tableDataSetCursor th,
+.tableDataSetCursor td {
+  cursor: pointer !important;
+}
+
+@media screen and (max-width:1005px) {
+  .mainTask {
+    overflow: scroll !important;
+
+  }
+
+  .mainTodo {
+    height: auto;
+    width: 900px !important;
+    margin: auto !important;
+
+  }
 }
