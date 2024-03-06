@@ -22,7 +22,7 @@ npm start
 
 ## Live Website
 
-The live version of this project can be accessed [here] fintech-assignment-frontend.vercel.app
+The live version of this project can be accessed [here] (fintech-assignment-frontend.vercel.app)
      
 
    
