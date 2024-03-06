@@ -22,7 +22,8 @@ This is the documentation for the frontend of the project. Below are the instruc
     
  # Project View
 
-    <img src="https://res.cloudinary.com/dh9qvkjr1/image/upload/v1709708780/wblhphgtfpdgutzglcsa.png" alt="Project Logo">
+  ![Project View](https://res.cloudinary.com/dh9qvkjr1/image/upload/v1709708780/wblhphgtfpdgutzglcsa.png)
+
 
 
 
