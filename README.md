@@ -20,9 +20,13 @@ To run the backend server, navigate to the `server` directory and use the follow
 ```bash
 npm start
 
-## Live Website
+## Live
 
-The live version of this project can be accessed [here] fintech-assignment-frontend.vercel.app
-     
+    The live version of this project can be accessed [here] fintech-assignment-frontend.vercel.app
+
+ ##Project View
+
+    <img src="https://res.cloudinary.com/dh9qvkjr1/image/upload/v1709708780/wblhphgtfpdgutzglcsa.png" alt="Project Logo">
+
 
    
